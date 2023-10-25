@@ -7,6 +7,8 @@
 ARG NODE_VERSION=18.18.0
 ARG PNPM_VERSION=8.5.1
 
+FROM url-preview:v.0.0.1
+
 FROM node:${NODE_VERSION}
 
 # Get the latest version of Playwright

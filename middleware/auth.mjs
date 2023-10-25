@@ -39,6 +39,5 @@ export const generateToken = async (domain, id) => {
   );
 }
 
-// console.log(generateToken(database['enrique'].domain, database['enrique'].id))
 
 export default verifyToken;
